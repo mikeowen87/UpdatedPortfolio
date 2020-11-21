@@ -1,0 +1,234 @@
+.nav {
+    float: right;
+    /* background-color: white; */
+}
+
+.navbar {
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    background-color: hsla(256, 100%, 50%, 0.4);
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:hover {
+    background-color: hsla(251, 93%, 36%, 0.6);
+}
+
+.jumbotron {
+    background-size: contain;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
+    color: white;
+    text-align: center;
+    background-color: transparent;
+}
+
+body {
+    background-image: url(Assets/images/cityBackground.gif);
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: black;
+}
+
+.display-4 {
+    font-size: 70px;
+    animation-name: title;
+    animation-duration: 35s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-shadow: 10px 10px black;
+}
+
+/* .btn {
+    width: 50px;
+    transition: width 0.4s;
+    margin-bottom: 15px;
+}
+.btn:hover {
+    width: 310px; 
+    margin: auto;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 3px black;
+} */
+
+/* navbar items */
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+    display: inline;
+}
+
+.nav-link:hover {
+    color: rgba(192, 192, 192, 0.541);
+    box-shadow: 10px 5px black;
+    background-color: hsla(244, 100%, 50%, 0.3);
+    border-radius: 10px;
+}
+
+
+form {
+    background-color: hsla(236, 93%, 30%, 0.5);
+    /* background-color: hsla(293, 100%, 50%, 0.6); */
+    padding: 20px 30px 20px 30px; 
+    border-radius: 10px; 
+    /* display: flexbox; */
+    /* margin-bottom: 60px; */
+}
+
+form:hover {
+    background-color: hsla(244, 100%, 50%, 0.6);
+
+    /* background-color: hsla(293, 94%, 30%, 0.7); */
+}
+
+#inputEmail, #inputName, #comments {
+    background-color: rgb(122, 121, 121, 0.8);
+
+    /* background-color: hsla(100, 100%, 100%, 0.4); */
+    color: black;
+}
+
+#comments::placeholder, #inputEmail::placeholder, #inputName::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+#inputEmail:focus, #inputName:focus, #comments:focus {
+    background-color: hsla(100, 100%, 100%, 0.4);
+
+    
+   
+    color: black;
+}
+
+footer {
+    
+    position: sticky;
+  
+    width: 100%;
+
+    color: white;
+    text-align: right;
+    padding-top: 5px;
+    background-color: hsla(244, 91%, 35%, 0.4);
+    }
+
+
+
+
+@keyframes title {
+   
+    0% {
+        color: #070066;
+    }
+    3% {
+        color: #3a3399;
+    }
+    6% {
+        color: #360099;
+    }
+    9% {
+        color: #333599;
+    }
+    12% {
+        color: #660033;
+    }
+    15% {
+        color: #990033;
+    }
+    18% {
+        color: #993333;
+    }
+    21% {
+        color: #800000;
+    }
+    24% {
+        color: #990000;
+    }
+    27% {
+        color: #993300;
+    }
+    30% {
+        color: #cc3300;
+    }
+    33% {
+        color: #996600;
+    }
+    36% {
+        color: #663300;
+    }
+    39% {
+        color: #996633;
+    }
+    42% {
+        color: #999966;
+    }
+    45% {
+        color: #666633;
+    }
+    48% {
+        color: #333300;
+    }
+    51% {
+        color: #336600;
+    }
+    54% {
+        color: #003300;
+    }
+    57% {
+        color: #006600;
+    }
+    60% {
+        color: #339933;
+    }
+    63% {
+        color: #339966;
+    }
+    66% {
+        color: #669999;
+    }
+    69% {
+        color: #006666;
+    }
+    72% {
+        color: #003366;
+    }
+    75% {
+        color: #336699;
+    }
+    78% {
+        color: #3366cc;
+    }
+    81% {
+        color: #003399;
+    }
+    84% {
+        color: #000099;
+    }
+    87% {
+        color: #0000cc;
+    }
+    90% {
+        color: #000066;
+    }
+    93% {
+        color: #333399;
+    }
+    96% {
+        color: #666699;
+    }
+    99% {
+        color: #0300cc;
+    }
+    100% {
+        color: #0003cc;
+    }
+  }
+
+  
